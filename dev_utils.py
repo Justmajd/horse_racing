@@ -16,7 +16,7 @@ def check_access():
     
     try:
         decoded = base64.b64decode(secret).decode('utf-8')
-        if key == "***REMOVED***":
+        if key == "dev_access_2024":
             print("Developer mode activated!")
             print(f"Debug info: {decoded}")
             return True
